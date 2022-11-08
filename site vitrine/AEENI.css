@@ -1,0 +1,333 @@
+#alefa{
+    width: 300px;
+    height: 215px;
+    margin-top: -20.2cm;
+    float: left;
+}
+#merci{
+    width: 300px;
+    height: 215px;
+    margin-top: -20.2cm;
+    float: right;
+}
+ul{
+  margin-left: 300px;
+  background-color: #923c3c;
+  border-radius: 15px; 
+  width: 56%; 
+}
+
+li{
+    color:white ;
+    display: inline-block;
+    text-align: center;
+    padding: 15px;
+}
+li a{
+    text-decoration: none;
+    color: white;
+    font-size: 25px;
+    margin-left: -10px;
+}
+li a:hover{
+    background-color: brown;
+}
+#photo{
+    width: 700px;
+    height: 330px;
+    border-radius: 15px;
+    float: initial;
+    margin-left: -9cm;
+}
+section{
+    border: 1px solid black;
+    width: 300px;
+    float: left;
+    border-radius: 15px;
+    padding: 5px;
+    background-color: wheat;
+    color: black;
+}
+h2{
+    color: brown;
+}
+#div1{
+   background-color: brown;
+   background-size: 100%;
+   height: 12cm;
+   background-repeat: no-repeat;
+   margin-top: -0.5cm;
+}
+#section1{
+    width: 160px;
+    height: 200px;
+    margin-left: 3.5cm;
+    margin-top: 10cm;
+}
+#section1 p{
+    margin-left: 20px;
+}
+#section1 h2{
+    margin-left: 0.5cm;
+}
+#section2{
+    width: 165px;
+    height: 200px;
+    margin-left: 0.2cm;
+    margin-top: 10cm;
+}
+#section2 p{
+    margin-left: 20px;
+}
+#section3{
+    width: 160px;
+    height: 200px;
+    margin-left: 0.5cm;
+    margin-top: 1.2cm;
+}
+#section3 p{
+    margin-left: 20px;
+}
+#aeeni{
+    width: 150px;
+    height: auto;
+    border-radius: 15px;
+    margin-top: -1.7cm;
+    float: left;
+    margin-left: 0.5cm;
+}
+#section4{
+    width: 290px;
+    height: 430px;
+    margin-top: 1cm;
+    float: left;
+    margin-left: 4cm;
+}
+#section7{
+    width: 160px;
+    height: 200px;
+    margin-top: -5.7cm;
+    float: right;
+    margin-right: 8cm;
+}
+#section7{
+    margin-left: 20px;
+}
+#section5{
+    width: 280px;
+    height: 430px;
+    margin-left: 1cm;
+    margin-top: 1cm;
+}
+#section6{
+    width: 290px;
+    height: 430px;
+    margin-left: 20px;
+    margin-top: 1cm;
+}
+#section6 p{
+    margin-left: 0.5cm; 
+}
+#club{
+    width: 290px;
+    height: 200px;
+    border-radius: 10px;
+    margin-top: -1cm;
+}
+#div3{
+    background-color: brown;
+    border-radius: 15px;
+    background-size: 100%;
+    height: 20cm;
+}
+#facebook{
+    width: 50px;
+    height: auto;
+    border-radius: 50px;
+    margin-top: 0.5cm;
+}
+#instagram{
+    width: 50px;
+    height: auto;
+    border-radius: 50px;
+    margin-top: 0.5cm;
+}
+#mail{
+    width: 50px;
+    height: auto;
+    border-radius: 50px;
+    margin-top: 0.5cm;
+}
+#twitter{
+    width: 50px;
+    height: auto;
+    border-radius: 50px;
+    margin-top: 0.5cm;
+}
+#image{
+    margin-left: 24cm;
+    float: right;
+    margin-top: -0.1cm;
+}
+#demo{
+    float: right;
+    margin-top: -25cm;
+    font-size: 30px;
+    margin-right: 9cm;
+    font-family: 'Brush Script MT', cursive;
+}
+#copy{
+    background-color: gray;
+    width: 100%;
+    height: 1.5cm;
+    margin-top: -2cm;
+    border-radius: 15px;
+} 
+#copy p{
+    font-size: 20px;
+    margin-left: 1cm;
+    padding-top: 13px;
+}
+body{
+    background-color: white;
+}
+#im{
+    width: 150px;
+    height: auto;
+    border-radius: 15px;
+    margin-top: -1.7cm;
+    float: right;   
+}
+#cache{
+    visibility: hidden;
+    float: right;
+}
+p{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 13px;
+}
+
+@media  screen and (max-width:1000px){
+    body{
+        background: brown;
+    }
+    ul {
+        visibility: hidden;
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        width: 150PX;
+        background-color: none;
+        transform: translateX(-400px);
+        transition: 1s;
+      }
+      
+      li a {
+        width: 100px;
+        font-size: 15px;
+        display: block;
+        color: white;
+        padding: 8px 16px;
+        text-decoration: none;
+      }
+    #photo{
+    width: 300px;
+    height: 4cm;
+    float: right;
+    margin-top: -6.5cm;
+    margin-left: 1cm;
+}
+#aeeni,#im{
+    width: 50px;
+}
+#im{
+    float: left;
+    margin-top: -8cm;
+    margin-left: 2cm;
+}
+#aeeni{
+    float: left;
+    margin-top: -8cm;
+}
+#section1{
+   margin-top: -2cm;
+   float: left;
+   margin-left: 0px;
+   width: 100px;  
+}
+#section2{
+    float: left;
+    width: 100px;
+    margin-top: -2cm;
+    margin-left: -0.3cm;
+}
+#section3{
+    float: right;
+    width: 100px;
+    margin-top: -5.6cm;
+    margin-left: -0.5cm;
+}
+#section7{
+    width: 150px;
+    float: left;
+    margin-top: 1cm;
+    margin-left: -0.2cm;
+}
+#alefa{
+    float: right;
+    width: 150px;
+    margin-top: -45cm;
+    border-radius: 15px;
+    height: 6cm;
+}
+#merci{
+    visibility: hidden;
+}
+#club{
+    width: 250px;
+    border-radius: 15px;
+    margin-top: 0.01cm;
+}
+#section4,#section5,#section6{
+    width: 300px;
+    float: right;
+    margin-right: 0cm;
+}
+#div3,#div1{
+    background: brown;
+}
+#copy{
+    margin-top: -0.5cm;
+    background: brown;
+}
+#copy p{
+    float: left;
+    margin-top: -1cm;
+    margin-left: -0.1cm;
+    font-size: 15px;
+    text-align: left;
+}
+#facebook,#instagram,#twitter,#mail{
+    width: 20px;
+    z-index: 0;
+}
+
+#facebook{
+    margin-left: -3cm;
+    margin-top: -2cm;
+}
+  #cache{
+    float: right;
+    visibility: visible;
+    font-size: 30px;
+    color: black;
+    margin-top: -8cm;
+  }
+  #cache:hover{
+    cursor: pointer;
+  }
+p,h2{
+    font-size: 12px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+}
